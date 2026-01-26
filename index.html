@@ -1394,7 +1394,7 @@
                     <span>All image processing happens locally in your browser. Images are never uploaded.</span>
                 </p>
                 <p class="text-gray-500 text-xs">
-                    © 2025 Oathan Rex. Free to use. No tracking. No ads.
+                    © <span id="currentYear"></span> Oathan Rex. Free to use. No tracking. No ads.
                 </p>
             </div>
         </div>
@@ -2491,6 +2491,10 @@
             }
 
             init();
+            const yearEl = document.getElementById('currentYear');
+            if (yearEl) {
+                yearEl.textContent = new Date().getFullYear();
+            }
         })();
     </script>
 </body>
