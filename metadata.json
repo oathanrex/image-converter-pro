@@ -1,0 +1,6 @@
+{
+  "name": "Image Converter",
+  "description": "Fast, private image conversion and resizing directly in your browser. Zero uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
